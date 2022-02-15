@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 572px;
+  padding: 22px 23px 42px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid black;
+  background-color: white;
+}
+
+.form-enter-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.button {
+  align-self: flex-end;
+  width: 121px;
+  padding: 10px;
+
+  background-color: white;
+  border: 1px solid black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.span-display {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.input-enter-time {
+  width: 161px;
+  padding: 10px;
+
+  border: 1px solid black;
+}
+
+.watch {
+  position: relative;
+  width: 80px;
+  height: 80px;
+
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.container-hour, .container-minute, .container-second {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hour {
+  position: absolute;
+  width: 0.1em;
+  height: 1.2em;
+  top: 20px;
+  left: 39px;
+
+  background: #000;
+
+  transform-origin: 50% 100%;
+}
+
+.minute {
+  position: absolute;
+  width: 0.06em;
+  height: 1.8em;
+  top: 10px;
+  left: 40px;
+
+  background: #000;
+
+  transform-origin: 50% 100%;
+}
+
+.second {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  height: 2.2em;
+  z-index: 3;
+
+  border-width: 0.001em;
+  border-color: black;
+  border-left-style: dashed;
+  transform-origin: 70% 100%;
+}
+
+.container-watches {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 23px;
+  height: 23px;
+
+  border: 1px solid black;
+  border-radius: 50%;
+
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.city {
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.container-watch {
+  margin-right: 60px;
+  margin-bottom: 40px;
+}
+
+.tooltip {
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
+
+.paragraph-error {
+  margin: 0;
+  color: red;
+}
+
+.label-time, .label-name {
+  position: relative;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
