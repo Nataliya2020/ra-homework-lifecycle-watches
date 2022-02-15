@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra-homework-lifecycle-watches/static/css/main.a46c9ad2.css",
+    "main.js": "/ra-homework-lifecycle-watches/static/js/main.4c3e51b2.js",
+    "static/js/787.222e0e58.chunk.js": "/ra-homework-lifecycle-watches/static/js/787.222e0e58.chunk.js",
+    "index.html": "/ra-homework-lifecycle-watches/index.html",
+    "main.a46c9ad2.css.map": "/ra-homework-lifecycle-watches/static/css/main.a46c9ad2.css.map",
+    "main.4c3e51b2.js.map": "/ra-homework-lifecycle-watches/static/js/main.4c3e51b2.js.map",
+    "787.222e0e58.chunk.js.map": "/ra-homework-lifecycle-watches/static/js/787.222e0e58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a46c9ad2.css",
+    "static/js/main.4c3e51b2.js"
+  ]
+}
